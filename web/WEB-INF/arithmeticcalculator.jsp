@@ -14,15 +14,15 @@
     <body>
         <h1>Arithmetic Calculator</h1>
         <form action="" method="post">
-            First:<input type="text" name="firstnumber"><br>
-            Second:<input type="text" name="secondnumber"><br>
+            First:<input type="text" name="firstnumber" value="${firstnumber}"><br>
+            Second:<input type="text" name="secondnumber" value="${secondnumber}"><br>
             <input type="submit" name="add" value="+">
             <input type="submit" name="subtract" value="-">
             <input type="submit" name="multiply" value="*">
             <input type="submit" name="modulus" value="%">
-        </form>
-        Result:
-        <br>
+        </form><br>
+        Result: ${message}<br>
+
         <a href="age">Age Calculator</a>
     </body>
 </html>
